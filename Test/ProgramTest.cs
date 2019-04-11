@@ -23,7 +23,7 @@ namespace Test
 
                 var result = sw.ToString().Replace(Environment.NewLine, "");
 
-                Assert.EndsWith("66 points.", result);
+                Assert.EndsWith("76 points.", result);
             }
         }
     }
